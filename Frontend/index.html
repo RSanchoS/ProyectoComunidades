@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comunidades</title>
+  <link rel="stylesheet" href="Plugins/jquery-ui.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="Plugins/jquery-ui.min.js"></script>
+  <script src="comunidades.js"></script>
+  <script src="llamadaAjax.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+<div clas="container">
+  <div class="input-group">
+    <input id="tags" class="form-control" placeholder="Search for..." aria-label="Search for...">
+    <span class="input-group-btn">
+      <button id="btnTags" class="btn btn-secondary">Buscar!</button>
+    </span>
+  </div>
+  <div id="map"></div>
+   <!-- Replace the value of the key parameter with your own API key. -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6JFXbzvMvimDnakW1yH_xI9L5ZIdsfM0&callback=initMap"
+   async defer></script>
+</body>
+</html>
