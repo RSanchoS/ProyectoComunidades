@@ -7,7 +7,7 @@ var app = require('./app');
 var port = process.env.PORT || 3977;
 
 
-mongoose.connect('mongodb://Admin:admin@ds163494.mlab.com:63494/provincias-ciudades',
+mongoose.connect('mongodb://@ds163494.mlab.com:63494/provincias-ciudades',
 function (err, res) {
  if (err) {
     throw err;
